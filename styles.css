@@ -194,20 +194,6 @@ ul {
     padding: 10px 0px;
 }
 
-.skills .col-md-6:last-child {
-    border-left: 1px solid;
-    position: relative;
-}
-
-.skills .col-6:first-child::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border: 1px solid rgb(109, 107, 107);
-    border-radius: 50%;
-    left: -15px;
-}
 
 
 /* SERVICES STYLES */
@@ -334,7 +320,7 @@ ul {
 
 @media(max-width: 778px) {
     
-    .banner img{
+    .banner .col-md-5{
         display: none;
     }
 }
