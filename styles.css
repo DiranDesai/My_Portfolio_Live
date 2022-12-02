@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+
+
+body {
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header {
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    background: #fff;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+}
+
+.header .site-logo span {
+    font-weight: 700;
+    color: rgba(4, 8, 26, 0.76);
+}
+.header .site-logo .text-alt{
+    color: #4550e6;
+}
+
+.header .navbar-nav a {
+    font-weight: 600;
+    color: #2b325c;
+}
+
+
+/* BANNER */
+
+.banner {
+    height: 100vh;
+    margin-top: 10rem;
+}
+
+.banner .container {
+    /* padding-top: 13rem; */
+}
+
+.banner h1 {
+    font-size: 70px;
+    font-family: "Oswald";
+}
+
+.banner h3 {
+    font-size: 26px;
+    color: #2b3d63;
+    font-weight: 300;
+    font-family: "Oswald";
+}
+
+.banner img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    transform: rotate(12deg);
+    object-fit: cover;
+    border: 15px solid #4049cb75;
+    outline: 15px solid rgb(113 119 209);
+    padding: 20px;
+}
+
+.banner .personal-info {
+    margin-top: 20px;
+}
+
+.banner .personal-info ul {
+    margin-top: 3rem;
+}
+
+.banner .personal-info li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner .personal-info li span {
+    margin-right: 20px;
+}
+
+.banner .personal-info li p {
+    margin-bottom: 0;
+}
+
+.banner .me-banner {
+    display: inline-block;
+    background-color: #4550e6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 20% 50% 50% 20%;
+}
+
+
+/*IMPORTANT STYLES */
+.about,
+.skills,
+.services,
+.projects,
+.contact {
+    padding: 4rem 0;
+}
+
+#about h1,
+.skills h1,
+.services h1,
+.projects h1,
+.contact h1 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+
+/* ABOUT STYLES */
+.about {
+    background-color: #4550e6;
+    color: white;
+    margin-top: 2rem;
+}
+
+.about .resume button {
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* SKILLS STYLES */
+.skills .details p {
+    /* font-size: 16px; */
+    color: #525354;
+}
+
+.skills .details h3,
+.skills .experience-container h4 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.skills .grid-lang {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 2rem;
+}
+
+.skills .grid-lang>div i {
+    font-size: 2rem;
+}
+
+.skills .experiences .row .col-6:first-child h5 {
+    color: #51545a;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.skills .experiences .row .col-6:last-child h5 {
+    font-size: 19px;
+    color: #4550e6;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.skills .experiences h6 {
+    font-size: 16px;
+    color: #26272b;
+    font-weight: 600;
+}
+
+.skills .experiences .row {
+    padding: 10px 0px;
+}
+
+.skills .col-md-6:last-child {
+    border-left: 1px solid;
+    position: relative;
+}
+
+.skills .col-6:first-child::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(109, 107, 107);
+    border-radius: 50%;
+    left: -15px;
+}
+
+
+/* SERVICES STYLES */
+
+.services {
+    background-color: #60adf1;
+}
+
+.services .service-inner {
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 1px 0.625rem #34383c0f, 0 0.125rem 0.25rem #34383c14;
+}
+
+.services h4 {
+    font-family: "Oswald";
+    color: #1d2021;
+}
+
+/* PROJECT STYLES */
+.projects h4{
+    margin-top: 20px;
+    font-size: 19px;
+    color: #1d2021;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .projects h5{
+    font-weight: 300;
+    font-size: 17px;
+  }
+  .projects .project{
+    box-shadow: 1px 0px 5px 3px rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%);
+    border-radius: 6px;
+  }
+  .projects .project-details{
+    padding: 3rem;
+  }
+  .projects .project-tools span{
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #798b97;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid;
+    line-height: 5px;
+  }
+  .projects .project-controls{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .projects .project-controls a{
+    border-radius: 20px;
+    padding: 7px 20px;
+    border: none;
+    font-family: "DM Sans";
+    color: white;
+  }
+  .projects .project-controls a i{
+    margin-left: 10px;
+  }
+  .projects .project-controls a:first-child{
+    background-color: #d64254;
+  }
+  
+  .projects .project-controls a:last-child{
+    background-color: rgb(54 104 214);
+  }
+
+  /* CONTACT STYLES */
+  
+  .contact{
+    background-color: #e9eff3;
+  }
+  
+  .contact .form-group{
+    margin-top: 20px;
+  }
+  
+  .contact .submit-btn{
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 15px 20px;
+  }
+  
+
+  /* FOOTER STYLES */
+
+  .footer{
+    height: 60px;
+    background-color: #5a627c;
+  }
+  
+  .footer .footer-details{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 !important;
+  }
+  
+  .footer ul li{
+    margin: 0px 20px
+  }
+  
+  .footer ul a{
+    color: #effbff;
+  }
+  
+  .footer ul a i{
+    font-size: 2rem;
+  }
