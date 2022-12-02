@@ -332,3 +332,11 @@ ul {
   .footer ul a i{
     font-size: 2rem;
   }
+
+@media(max-width: 778px) {
+    
+    .banner img{
+        width: 200px;
+        height: 200px;
+    }
+}
