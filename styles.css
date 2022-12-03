@@ -5,6 +5,7 @@
 
 
 body {
+  background-color: red;
 }
 
 a {
@@ -263,27 +264,27 @@ ul {
   .projects .project-controls a:first-child{
     background-color: #d64254;
   }
-  
+
   .projects .project-controls a:last-child{
     background-color: rgb(54 104 214);
   }
 
   /* CONTACT STYLES */
-  
+
   .contact{
     background-color: #e9eff3;
   }
-  
+
   .contact .form-group{
     margin-top: 20px;
   }
-  
+
   .contact .submit-btn{
     margin-top: 30px;
     border-radius: 30px;
     padding: 15px 20px;
   }
-  
+
 
   /* FOOTER STYLES */
 
@@ -291,35 +292,35 @@ ul {
     height: 60px;
     background-color: #5a627c;
   }
-  
+
   .footer .footer-details{
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
   }
-  
+
   .footer ul{
     display: flex;
     align-items: center;
     height: 100%;
     margin: 0 !important;
   }
-  
+
   .footer ul li{
     margin: 0px 20px
   }
-  
+
   .footer ul a{
     color: #effbff;
   }
-  
+
   .footer ul a i{
     font-size: 2rem;
   }
 
 @media(max-width: 778px) {
-    
+
     .banner .col-md-5{
         display: none;
     }
