@@ -341,7 +341,7 @@ ul {
 
 @media(max-width: 778px) {
 
-  .banner .col-md-5 {
-    display: none;
+  .banner{
+    text-align: center;
   }
 }
