@@ -11,9 +11,8 @@
 }
 
 body {
-  font-family: "Roboto";
   background-color: #f7f8fa;
-  color: #434e5e;
+  color: #7a7c89;
 }
 
 a {
@@ -90,7 +89,6 @@ ul {
 }
 
 .banner p{
-  font-family: "Open Sans", sans-serif;
   font-family: 700 !important;
 }
 
