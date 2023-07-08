@@ -205,9 +205,10 @@ ul {
 
 .services .service-inner {
   background: white;
-  padding: 30px 10px;
+  padding: 30px;
   border-radius: 6px;
   box-shadow: 0 1px 0.625rem #34383c0f, 0 0.125rem 0.25rem #34383c14;
+  border-left: 5px solid #e7643e;
 }
 
 .services h4 {
