@@ -198,7 +198,7 @@ ul {
 
 .about .resume button {
   color: white;
-  background-color: var(--primary-color);
+  background-color: #f2877e;
   padding: 20px;
   font-family: "";
   font-size: 17px;
@@ -375,6 +375,10 @@ ul {
 
   .skills .card-shadow{
     margin-bottom: 30px;
+  }
+
+  .services h4{
+    font-size: 15px;
   }
 }
 
