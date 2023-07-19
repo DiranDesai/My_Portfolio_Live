@@ -213,12 +213,19 @@ ul {
 
 .services .service-inner {
   background: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 6px;
   box-shadow: 0 1px 0.625rem #34383c0f, 0 0.125rem 0.25rem #34383c14;
+}
+.services .service-inner.front-end{
   border-left: 5px solid #e7643e;
 }
-
+.services .service-inner.back-end{
+  border-left: 5px solid #35cef5;
+}
+.services .service-inner.full-stack{
+  border-left: 5px solid #f5ab35;
+}
 .services h4 {
   font-family: "Open Sans" !important;
   color: rgb(55 64 68);
@@ -370,3 +377,5 @@ ul {
     margin-bottom: 30px;
   }
 }
+
+
