@@ -138,6 +138,7 @@ ul {
   font-family: "Roboto";
   font-size: 1.3rem;
   margin-top: 3rem;
+  color: rgb(55 64 68);
 }
 .skills .fa-check{
   color: var(--primary-color);
@@ -164,6 +165,7 @@ ul {
   width: 200px;
   margin-bottom: 2rem;
   font-weight: 800;
+  color: rgb(55 64 68);
 }
 
 .btn-hire {
@@ -347,7 +349,7 @@ ul {
 .banner img {
 width: 200px;
 height: 200px;
-border: none;
-outline: none;
+/* border: none;
+outline: none; */
 }
 }
