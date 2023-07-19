@@ -6,7 +6,7 @@
 
 
 
-:root{
+:root {
   --primary-color: #4550e6 !important;
 }
 
@@ -54,12 +54,14 @@ ul {
   color: #333647;
   font-family: "Open Sans";
 }
-.header .btn{
+
+.header .btn {
   background-color: transparent;
   padding: 10px 20px;
   color: var(--primary-color) !important;
 }
-.header .btn i{
+
+.header .btn i {
   vertical-align: bottom;
   margin-left: 5px;
 }
@@ -71,12 +73,14 @@ ul {
   padding: 6rem 0px;
   background-color: white;
 }
-.banner .btn-hire{
+
+.banner .btn-hire {
   background-color: transparent;
   border: 1px solid var(--primary-color);
   color: #434a85;
 }
-.banner .btn-hire i{
+
+.banner .btn-hire i {
   vertical-align: bottom;
   margin-left: 10px;
 }
@@ -88,7 +92,7 @@ ul {
   color: #434a85;
 }
 
-.banner p{
+.banner p {
   font-family: 700 !important;
 }
 
@@ -140,10 +144,12 @@ ul {
   margin-top: 3rem;
   color: rgb(55 64 68);
 }
-.skills .fa-check{
+
+.skills .fa-check {
   color: var(--primary-color);
 }
-.skills li{
+
+.skills li {
   margin-top: 15px;
 }
 
@@ -176,7 +182,8 @@ ul {
   font-size: 17px;
   border-radius: 30px;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #5760df;
   color: white !important;
 }
@@ -244,7 +251,7 @@ ul {
   cursor: pointer;
 }
 
-.projects .project:hover h4{
+.projects .project:hover h4 {
   text-decoration: underline;
 }
 
@@ -293,9 +300,7 @@ ul {
 
 /* CONTACT STYLES */
 
-.contact {
-  
-}
+.contact {}
 
 .contact .form-group {
   margin-top: 20px;
@@ -343,13 +348,18 @@ ul {
 
 @media(max-width: 778px) {
 
-  .banner{
+  .banner {
     text-align: center;
   }
-.banner img {
-width: 200px;
-height: 200px;
-/* border: none;
-outline: none; */
-}
+
+  .banner img {
+    width: 200px;
+    height: 200px;
+    /* border: none;
+    outline: none; */
+  }
+
+  .skills .card-shadow{
+    margin-bottom: 30px;
+  }
 }
