@@ -317,6 +317,7 @@ ul {
 /* FOOTER STYLES */
 
 .footer {
+  display: flex;
   height: 60px;
   background-color: #5a627c;
 }
