@@ -13,6 +13,7 @@
 body {
   background-color: #f7f8fa;
   color: #7a7c89;
+  font-size: 95% !important;
 }
 
 a {
@@ -88,7 +89,7 @@ ul {
 .banner h1 {
   font-weight: 800;
   font-size: 3.5rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: #434a85;
 }
 
@@ -352,11 +353,16 @@ ul {
     text-align: center;
   }
 
+  .banner-content{
+    margin-top: 20px;
+  }
+
   .banner img {
     width: 200px;
     height: 200px;
-    /* border: none;
-    outline: none; */
+    border: 10px solid rgb(219 229 234);
+    outline: rgb(152 150 161 / 83%) solid 10px;
+
   }
 
   .skills .card-shadow{
