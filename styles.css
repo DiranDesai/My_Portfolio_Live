@@ -52,8 +52,8 @@ ul {
 
 .header .navbar-nav a {
   font-weight: 600;
-  color: #333647;
-  font-family: "Open Sans";
+  color: #2b325c;
+  font-family: "DM Sans";
 }
 
 .header .btn {
@@ -101,7 +101,7 @@ ul {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  transform: rotate(12deg);
+  /* transform: rotate(12deg); */
   object-fit: cover;
   border: 15px solid rgb(219 229 234);
   outline: rgb(152 150 161 / 83%) solid 15px;
