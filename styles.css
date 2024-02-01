@@ -68,9 +68,25 @@ ul {
   background: #fff;
 }
 
+
+
 .header img {
   width: 40px;
   height: 40px;
+}
+.header .site-logo{
+  animation: dropdown 1s ease-in 2s;
+}
+
+@keyframes dropdown {
+  0%{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .header .site-logo span {
@@ -88,11 +104,26 @@ ul {
   font-family: "DM Sans";
 }
 
-.header .btn {
-  background-color: transparent;
-  padding: 10px 20px;
-  color: var(--primary-color) !important;
+.header .linkden{
+  align-items: center;
+  background-color: #4f65f1;
+  background-image: linear-gradient(90deg,#6f89fb,#616df5 33%,#5c52eb);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  justify-content: center;
+  margin-right: 6px;
+  padding: 0 16px;
+  transition: all .25s ease 0s;
+  white-space: nowrap;
+  color: white !important;
 }
+
 
 .header .btn i {
   vertical-align: bottom;
@@ -137,7 +168,17 @@ ul {
   object-fit: cover;
   border: 15px solid rgb(219 229 234);
   outline: rgb(152 150 161 / 83%) solid 15px;
-  padding: 20px
+  padding: 20px;
+  animation: scale 1.7s ease-out 2s;
+}
+
+@keyframes scale {
+  0%{
+    transform: scale(0.2);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 /* SKILLS STYLES */
