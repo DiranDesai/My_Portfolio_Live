@@ -4,15 +4,32 @@ function handleLoading() {
     setTimeout(() => {
         loaderOverlay.style.display = "none";
     }, 2000)
-
-    // document.addEventListener("DOMContentLoaded", () => {
-    //     window.scrollTo(0, 0)
-    //     loaderOverlay.style.display = "none";
-    // });
 }
+handleLoading();
 
-window.addEventListener("load", () => {
-    
+const skills = document.querySelectorAll(".skill")
+const services = document.querySelectorAll(".services-details .service-inner")
+const projects = document.querySelectorAll(".project");
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        } else {
+            entry.target.classList.remove('active');
+        }
+    });
+}, { threshold: 0.5 });
+
+
+skills.forEach(skill => {
+    observer.observe(skill);
 })
 
-handleLoading();
+services.forEach(service => {
+    observer.observe(service);
+})
+projects.forEach(project => {
+    observer.observe(project);
+});
