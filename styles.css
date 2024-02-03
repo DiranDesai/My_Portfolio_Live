@@ -46,9 +46,9 @@ ul {
 .loader{
   width: 100px;
   height: 100px;
-  border: 5px solid rgb(225, 229, 233);
-  border-bottom-color: rgb(0, 110, 255);
-  border-top-color: rgb(0, 110, 255);
+  border: 7px solid rgb(225, 229, 233);
+  border-bottom-color: #4f65f1;
+  border-top-color: #4f65f1;
   border-radius: 50%;
   -webkit-animation: loading .9s linear infinite; /* Safari */
   animation: loading .9s linear infinite;
@@ -92,6 +92,8 @@ ul {
 .header .site-logo span {
   font-weight: 700;
   color: rgba(4, 8, 26, 0.76);
+  font-size: 1.5rem;
+  font-family: "DM Sans";
 }
 
 .header .site-logo .text-alt {
@@ -99,9 +101,10 @@ ul {
 }
 
 .header .navbar-nav a {
-  font-weight: 600;
-  color: #2b325c;
+  font-weight: 800;
+  color: #4b587c;
   font-family: "DM Sans";
+  font-size: 18px;
 }
 
 .header .linkden{
@@ -140,8 +143,12 @@ ul {
 
 .banner .btn-hire {
   background-color: transparent;
-  border: 1px solid var(--primary-color);
   color: #434a85;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: "DM Sans";
+  font-weight: 600;
+  border: 1px solid #bddbeb;
 }
 
 .banner .btn-hire i {
@@ -157,7 +164,11 @@ ul {
 }
 
 .banner p {
-  font-family: 700 !important;
+  color: rgb(75, 88, 124);
+  line-height: 1.7;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "DM Sans";
 }
 
 .banner img {
@@ -226,6 +237,10 @@ ul {
   font-size: 1.3rem;
   margin-top: 3rem;
   color: rgb(55 64 68);
+  font-family: "Open Sans";
+  color: #4b587c;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .skills .fa-check {
@@ -234,6 +249,11 @@ ul {
 
 .skills li {
   margin-top: 15px;
+}
+.skills li span:last-child{
+  color: #4b587c;
+  line-height: 1.7;
+  font-size: 18px;
 }
 
 /*IMPORTANT STYLES */
@@ -250,11 +270,10 @@ ul {
 .services h1,
 .projects h1,
 .contact h1 {
+  font-family: "DM Sans";
+  color: #4b587c;
   font-size: 30px;
-  width: 200px;
-  margin-bottom: 2rem;
-  font-weight: 800;
-  color: rgb(55 64 68);
+  font-weight: 900 !important;
 }
 
 .btn-hire {
@@ -278,13 +297,23 @@ ul {
   background-color: white;
 }
 
+.about p{
+  color: rgb(75, 88, 124);
+  line-height: 1.7;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+
 .about .resume button {
-  color: white;
   background-color: #f2877e;
   padding: 20px;
-  font-family: "";
-  font-size: 17px;
-  border-radius: 40px;
+  font-family: "DM Sans";
+  font-size: 19px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
 }
 
 
@@ -321,11 +350,20 @@ ul {
   border-left: 5px solid #f5ab35;
 }
 .services h4 {
-  font-family: "Open Sans" !important;
-  color: rgb(55 64 68);
-  font-weight: 700;
+  font-family: "Open Sans";
+  color: #4b587c;
   font-size: 19px;
+  font-weight: 600;
 }
+.services p{
+  color: rgb(75, 88, 124);
+  line-height: 1.7;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+
 
 /* PROJECT STYLES */
 .projects {
@@ -339,6 +377,9 @@ ul {
   font-weight: 600;
   font-family: 'DM Sans', sans-serif;
   transition: all 1s ease-in-out;
+  color: #4b587c;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .projects h5 {
@@ -416,14 +457,32 @@ ul {
 
 .contact {}
 
+.contact label{
+  color: rgb(75, 88, 124);
+  line-height: 1.7;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
 .contact .form-group {
   margin-top: 20px;
 }
+.contact .form-control{
+  border-radius: 0;
+}
+.contact .form-control:focus{
+  box-shadow: 0 !important;
+  outline: 0 !important;
+}
 
 .contact .submit-btn {
+  padding: 20px;
+  font-family: "DM Sans";
+  font-size: 19px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
   margin-top: 30px;
-  border-radius: 30px;
-  padding: 15px 20px;
 }
 
 
