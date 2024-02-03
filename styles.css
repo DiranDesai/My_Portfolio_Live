@@ -167,6 +167,18 @@ ul {
   font-weight: 400;
   font-family: "DM Sans";
 }
+.banner span.hand{
+  animation: shaking 6s ease-in-out infinite;
+}
+
+@keyframes shaking {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(45deg);
+  }
+}
 
 .banner img {
   width: 300px;
@@ -175,7 +187,7 @@ ul {
   /* transform: rotate(12deg); */
   object-fit: cover;
   border: 15px solid rgb(219 229 234);
-  outline: rgb(152 150 161 / 83%) solid 15px;
+  outline: rgb(158 225 255) solid 15px;
   padding: 20px;
   animation: scale 1.7s ease-out 2s;
 }
