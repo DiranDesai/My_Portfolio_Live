@@ -532,6 +532,7 @@ ul {
     height: 200px;
     border: 10px solid rgb(219 229 234);
     outline: rgb(152 150 161 / 83%) solid 10px;
+    display: none;
 
   }
 
